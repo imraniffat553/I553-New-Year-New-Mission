@@ -1,4 +1,39 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color:#FFFAFA
+}
+.banner-content {
+  width: 1320px;
+  height: 600px;
+}
+
+.head-banner {
+  border-radius: 16px;
+  position: relative;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  left: 330px;
+  top: 40px;
+}
+.banner-text1 {
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  color: #050505;
+  font-family: Merriweather;
+  font-size: 42px;
+  font-weight: 400;
+}
+.banner-text2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+text-align: center;
+font-family: Merriweather;
+font-size: 52px;
+
 }
