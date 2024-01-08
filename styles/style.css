@@ -120,6 +120,31 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  
+}
 
+#about {
+  position: relative;
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #dfcabb;
+  margin: 388px 70px 50px 310px;
+  width: 1125px;
+  height: 135px;
+
+}
+.about-place{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 56px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  align-items: center;
+  
+}
+#about .text1 {
+  color: #070304;
+}
+#about .span {
+  color: #e70707;
 }
