@@ -117,7 +117,7 @@ body {
 }
 .btn-primary {
   background-color: #f54b08;
-  border: none;
+  border-radius: 8px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -234,9 +234,6 @@ div.gallery-img img {
   width: 100%;
   height: auto;
 }
-.footer {
-  background-color: #070211;
-}
 
 #subscribe {
   position: relative;
@@ -261,25 +258,103 @@ div.gallery-img img {
   text-transform: capitalize;
 }
 
-
-.sub-description{
+.sub-description {
   color: rgb(85, 63, 63);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 896px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
 }
 
-.subscribe-content img{
+.subscribe-content img {
   position: absolute;
- top: -41%;
- right: 42%;
- width: 120px;
-height: 116px;
-
+  top: -41%;
+  right: 42%;
+  width: 120px;
+  height: 116px;
+}
+.btn-input {
+  position: relative;
 }
 
-.btn-input{
-  
+.sub-btn {
+  position: absolute;
+  width: 648px;
+  height: 49px;
+  border-radius: 50px;
+  background: #fff;
+  padding: 10px;
+  top: 5%;
+  right: 61%;
+}
+
+.btn-text {
+  background-color: #f54b08;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 250px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #070211;
+  padding:100px 5px;
+  margin-top: 75px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-info, li, a{ 
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.footer-info1{
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+ 
+}
+
+.icon-img ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-img{
+  padding: 40px 0px;
+}
+
+.icon-img ul li{
+  margin: 0px 12gpx;
+}
+.copy-right-info{
+  display: flex;
+  padding-top: 25px; 
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-right-info p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
 }
