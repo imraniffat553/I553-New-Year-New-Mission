@@ -305,6 +305,7 @@ div.gallery-img img {
   background-color: #070211;
   padding:100px 5px;
   margin-top: 75px;
+  width: 100%;
 }
 .footer-content{
   display: flex;
